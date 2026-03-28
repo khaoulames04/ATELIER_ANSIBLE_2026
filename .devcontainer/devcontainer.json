@@ -1,0 +1,21 @@
+{
+  "name": "Atelier Ansible Codespace",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {},
+  "postCreateCommand": "sudo apt update && sudo apt install -y ansible nginx curl",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "redhat.ansible",
+        "yzhang.markdown-all-in-one"
+      ]
+    }
+  },
+  "forwardPorts": [80],
+  "portsAttributes": {
+    "80": {
+      "label": "Serveur web Nginx",
+      "onAutoForward": "openBrowser"
+    }
+  }
+}
