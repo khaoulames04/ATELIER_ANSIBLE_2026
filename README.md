@@ -157,6 +157,7 @@ app_name: "Application PROD"
 env: "prod"
 author: "Equipe Ops""
 ```
+![alt text](image-1.png)
 ---------------------------------------------------
 ### Zoom sur votre environnement Codepace 
 Codepace est un outil proposer par GitHub soumit à quota (4$/mois). Si vous dépasser votre quota mensuel vous ne serez plus en mesure de pouvoir utiliser Codespace. C'est pourquoi à **la fin de votre atelier, pensez à suprimer votre Codespace après avoir mis à jour votre GitHub**.  
